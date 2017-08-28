@@ -4,7 +4,7 @@ The following is the documented design for the two main workflows that we are lo
 
 1. [Deployment Workflow for Edge Technician](https://lizsurette.github.io/openstack-design/tripleo-ui/1-deployment%20workflow%20for%20edge%20technician/1.deploymentbyjacques)
 
-1. [Preparation before Edge Technician Deploys](link TBD)
+1. [Preparation before Edge Technician Deploys](https://lizsurette.github.io/openstack-design/tripleo-ui/2-preparation%20before%20edge%20technician%20deploys/preparedeploymentbyexpert)
 
 1. TripleO UI Edge Cases
 	- [View Plan History](link TBD)
