@@ -7,6 +7,6 @@ The following is the documented design for the two main workflows that we are lo
 1. [Preparation before Edge Technician Deploys](https://lizsurette.github.io/openstack-design/tripleo-ui/2-preparation%20before%20edge%20technician%20deploys/preparedeploymentbyexpert)
 
 1. TripleO UI Edge Cases
-	- [View Plan History](link TBD)
-	- [Create New Role (Shuttle Selection)](link TBD)
-	- [View Service Status](link TBD)
+	- [View Plan History](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/1.viewplanhistory)
+	- [Create New Role (Shuttle Selection)](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/2.createnewrole)
+	- [View Service Status](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/3.viewservicestatus)
