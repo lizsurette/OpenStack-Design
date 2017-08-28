@@ -10,3 +10,8 @@ The following is the documented design for the two main workflows that we are lo
 	- [View Plan History](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/1.viewplanhistory)
 	- [Create New Role (Shuttle Selection)](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/2.createnewrole)
 	- [View Service Status](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/3.viewservicestatus)
+	- [View About Information](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/4.viewaboutinformation)
+	- [Manually Add and Configure Infrastructure](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/5.manuallyaddandconfigureintrospectiondetails)
+	- [Information Hover Over](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/6.informationhoverover)
+	- [Advanced Network Configuration and Network Topology](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/7.advancednetworkconfigurationandtopology)
+	- [Advanced Storage Configuration](https://lizsurette.github.io/openstack-design/tripleo-ui/3-tripleo%20ui%20edge%20cases/8.advancedstorageconfiguration)
