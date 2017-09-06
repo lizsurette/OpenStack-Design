@@ -8,40 +8,45 @@ Before the edge technician (Jacques) can do his job of installing the OpenStack 
 - The Preparation Expert needs to identify and prepare the hardware they will be using to install the undercloud on. They will refer to guidance on what the specifications need to be for this hardware.
 
 ## Install Undercloud
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork4.png)
+![installundercloud](img/2017-7-24 TripleO UI_13_PrepWork4.png)
 - The first step of installing the undercloud is to clone and run the TripleO Quickstart project.
 
 ## Clone Heat Templates
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork5.png)
+![cloneheattemplates](img/2017-7-24 TripleO UI_13_PrepWork5.png)
 - The Preparation Expert clones the heat templates that are provided by the TripleO project so that they can make any edits needed for the configuration for their overcloud environment.
 
 ## Edit Heat Templates
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork6.png)
+![editheattemplates1](img/2017-7-24 TripleO UI_13_PrepWork6.png)
 - Any configuration updates that need to be made should be changed in the YAML files. This includes Network and Storage configuration changes along with creating or editing any custom roles that will be used.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork7.png)
+![editheattemplates2](img/2017-7-24 TripleO UI_13_PrepWork7.png)
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork8.png)
+![editheattemplates3](img/2017-7-24 TripleO UI_13_PrepWork8.png)
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork9.png)
+![editheattemplates4](img/2017-7-24 TripleO UI_13_PrepWork9.png)
 
 ## Optionally Create JSON File for Hardware
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork10.png)
-- The Preparation Expert
+![JSONfileforhardware](img/2017-7-24 TripleO UI_13_PrepWork10.png)
+- The Preparation Expert could optionally create a JSON file based on the hardware that will be registered at the Edge Site. This is something that could be uploaded by the deployer while registering nodes to make it quicker to register in bulk.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork12.png)
-- The Preparation Expert
+## How Would this Flow look in the UI?
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork13.png)
-- The Preparation Expert
+The preparation expert could use the UI to do all of these steps after prepping their undercloud hardware and installing the undercloud. Here is what that flow could look like in the UI...
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork14.png)
-- The Preparation Expert  
+![login](img/2017-7-24 TripleO UI_13_PrepWork12.png)
+- After logging in, the user would be dropped into the Plans card views. This would show any default plans that are available on a clean install.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork15.png)
-- The Preparation Expert
+![planscardview](img/2017-7-24 TripleO UI_13_PrepWork13.png)
+- At this point, the Preparation Expert would create a new plan so that they could define the specifics for what will be deployed at the Edge Site.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork16.png)
+![createnewplan](img/2017-7-24 TripleO UI_13_PrepWork14.png)
+- On creation of a Plan, the user can choose high level configuration options.  
+
+![editroles](img/2017-7-24 TripleO UI_13_PrepWork15.png)
+- Part of the overall configuration includes role selection and creation.
+- Since this deployment will be an HCI deployment, the user is going to remove the default Compute and Storage roles and go ahead and create custom role for HCI.
+
+![createnewrole](img/2017-7-24 TripleO UI_13_PrepWork16.png)
 - The Preparation Expert
 
 ![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork17.png)
