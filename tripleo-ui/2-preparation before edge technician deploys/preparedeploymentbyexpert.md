@@ -1,7 +1,7 @@
-# Undercloud Install and Preparation by Preparation Expert</br>
-Before the edge technician (Jacques) can do his job of installing the OpenStack Overcloud at an edge site, the undercloud needs to be installed and some configuration work needs to take place. This is not part of Jacques role and is captured below as part of a workflow done by what we are calling the "Preparation Expert".
+# Undercloud Install and Preparation by Preparation Expert
+Before the edge technician (Jacques) can do his job of installing the OpenStack Overcloud at an edge site, the undercloud needs to be installed and some configuration work needs to take place. This is not part of Jacques role and is captured below as part of a workflow done by what we are calling the "Preparation Expert". Read more about this persona here:
 
-[Preparation Expert Persona - TBD](TBD)
+Preparation Expert Persona (TBD)
 
 ## Identify and Prepare Hardware for Undercloud
 ![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork3.png)
@@ -46,38 +46,40 @@ The preparation expert could use the UI to do all of these steps after prepping 
 - Part of the overall configuration includes role selection and creation.
 - Since this deployment will be an HCI deployment, the user is going to remove the default Compute and Storage roles and go ahead and create custom role for HCI.
 
-![createnewrole](img/2017-7-24 TripleO UI_13_PrepWork16.png)
-- The Preparation Expert
+![createnewrole1](img/2017-7-24 TripleO UI_13_PrepWork16.png)
+- Creating a new role will pull up another window that allows the user to define that role.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork17.png)
-- The Preparation Expert
+![createnewrole2](img/2017-7-24 TripleO UI_13_PrepWork17.png)
+- Roles can be given a name, description, and need to be assigned to a flavor.
+- Services can be selected that will be used in this role.
+- Based on the services selected, the parameters below will be built out.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork18.png)
-- The Preparation Expert
+![createplan](img/2017-7-24 TripleO UI_13_PrepWork18.png)
+- Once the user has finalized the high level plan details, they can confirm the creation of the plan.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork19.png)
-- The Preparation Expert
+![plancardsview2](img/2017-7-24 TripleO UI_13_PrepWork19.png)
+- After creating the plan, the user will see it listed in the card view. Clicking on the card will drill into the detailed workflow of that plan.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork20.png)
-- The Preparation Expert  
+![plandetails](img/2017-7-24 TripleO UI_13_PrepWork20.png)
+- At this point, the user could choose to edit the configuration for this plan.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork21.png)
-- The Preparation Expert
+![editconfiguration1](img/2017-7-24 TripleO UI_13_PrepWork21.png)
+- The user can drill into the advanced network configuration.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork22.png)
-- The Preparation Expert
+![editconfiguration2](img/2017-7-24 TripleO UI_13_PrepWork22.png)
+- After making any network configuration changes, the user can drill into the advanced storage configuration.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork23.png)
-- The Preparation Expert
+![editconfiguration3](img/2017-7-24 TripleO UI_13_PrepWork23.png)
+- Storage configuration changes can be made here and the user can save all of the configuration changes that have been made.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork24.png)
-- The Preparation Expert
+![validationsrunning](img/2017-7-24 TripleO UI_13_PrepWork24.png)
+- Validations may kick off after certain changes are made to the deployment configuration.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork25.png)
-- The Preparation Expert
+![validations1](img/2017-7-24 TripleO UI_13_PrepWork25.png)
+- The user can click to view the entire list of validations.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork26.png)
-- The Preparation Expert  
+![validations2](img/2017-7-24 TripleO UI_13_PrepWork26.png)
+- For each validation, the high level status is listed along with a way for the user to drill into the details of the validation.
 
-![undercloudhardwareprep](img/2017-7-24 TripleO UI_13_PrepWork27.png)
-- The Preparation Expert
+![validationdetails](img/2017-7-24 TripleO UI_13_PrepWork27.png)
+- The validation details will give the user a better idea as to what has happened if a validation failed.
