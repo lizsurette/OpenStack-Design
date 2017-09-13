@@ -9,7 +9,7 @@ Preparation Expert Persona (TBD)
 
 ## Install Undercloud
 ![installundercloud](img/2017-7-24 TripleO UI_13_PrepWork4.png)
-- The first step of installing the undercloud is to clone and run the TripleO Quickstart project.
+- The preparation expert can install the undercloud in a number of different ways. One of these options is to clone and run the TripleO Quickstart project. Other options include using the RDO Quickstart or if a Red Hat customer, the guides provided with a Red Hat subscription.
 
 ## Clone Heat Templates
 ![cloneheattemplates](img/2017-7-24 TripleO UI_13_PrepWork5.png)
