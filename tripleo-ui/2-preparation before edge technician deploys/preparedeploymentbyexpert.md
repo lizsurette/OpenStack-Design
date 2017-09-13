@@ -25,10 +25,6 @@ Preparation Expert Persona (TBD)
 
 ![editheattemplates4](img/2017-7-24 TripleO UI_13_PrepWork9.png)
 
-## Optionally Create JSON File for Hardware
-![JSONfileforhardware](img/2017-7-24 TripleO UI_13_PrepWork10.png)
-- The Preparation Expert could optionally create a JSON file based on the hardware that will be registered at the Edge Site. This is something that could be uploaded by the deployer while registering nodes to make it quicker to register in bulk.
-
 ## How Would this Flow look in the UI?
 
 The preparation expert could use the UI to do all of these steps after prepping their undercloud hardware and installing the undercloud. Here is what that flow could look like in the UI...
