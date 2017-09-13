@@ -37,6 +37,11 @@ Preparation Expert Persona (TBD)
 ![deploy](img/2017-7-24 TripleO UI_13_PrepWork12.png)
 - The user can run the deploy command at this point to test that the deployment configuration will work on their test hardware.
 
+## Export Plan
+![deploy](img/2017-7-24 TripleO UI_13_PrepWork13.png)
+- At any point, the user can export a deployment plan.
+- This will support the use cases where one deployment plan might want to be used for multiple sites. The Edge Technician can simply import the deployment plan and then use it to deploy the overcloud at their site.
+
 ## How Would this Flow look in the UI?
 
 The preparation expert could use the UI to do all of these steps after prepping their undercloud hardware and installing the undercloud. Here is what that flow could look like in the UI...
@@ -106,5 +111,9 @@ The preparation expert could use the UI to do all of these steps after prepping 
 ![deployconfirmation](img/2017-7-24 TripleO UI_13_PrepWork35.png)
 - The user will get a confirmation modal before deployment officially starts.
 
-![deploy](img/2017-7-24 TripleO UI_13_PrepWork36.png)
+![successfuldeploy](img/2017-7-24 TripleO UI_13_PrepWork36.png)
 - After a successful deployment, the user will have access to the overcloud.
+
+![exportplan](img/2017-7-24 TripleO UI_13_PrepWork37.png)
+- At any point, the user can export a deployment plan.
+- This will support the use cases where one deployment plan might want to be used for multiple sites. The Edge Technician can simply import the deployment plan and then use it to deploy the overcloud at their site.
