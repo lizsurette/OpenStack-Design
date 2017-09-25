@@ -2,11 +2,11 @@
 
 The following is the documented design for the two main workflows that we are looking to support in the TripleO UI along with the edge cases that users might hit.
 
-#### 1. [Deployment Workflow for Edge Technician](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/1-deployment-workflow-for-edge-technician/1.deploymentbyjacques)
+#### 1. [Deployment Workflow for Edge Technician](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/1-deployment-workflow-for-edge-technician/)
 A walkthrough of what Jacques the Edge Technician will see in the UI as he works through Deploying the Overcloud.
 
 
-#### 2. [Preparation before Edge Technician Deploys](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/2-preparation-before-edge-technician-deploys/preparedeploymentbyexpert)
+#### 2. [Preparation before Edge Technician Deploys](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/2-preparation-before-edge-technician-deploys/)
 A walkthrough of what the preparation expert needs to do to get the undercloud install done and configuration prepared for before Jacques installs at edge sites.
 
 
