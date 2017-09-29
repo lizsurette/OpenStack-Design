@@ -26,3 +26,4 @@ Users might high a number of Edge Cases in the UI. Edge cases are the less likel
 - [View Nodes List](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/12.viewnodeslist)
 - [Localization](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/13.localization)
 - [View Details on a Truncated Error Message](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/14.viewdetailstruncatederror)
+- [Access Node Terminal](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/15.accessnodeterminal)
