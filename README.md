@@ -29,5 +29,5 @@ Users might high a number of Edge Cases in the UI. Edge cases are the less likel
 - [Access Node Terminal](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/15.accessnodeterminal)
 - [Run Validations in Bulk](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/16.runvalidationsinbulk)
 - [Alternate Network Topology View - Nodes](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/17.alternatenetworktopologynodes)
-- [Update Deployment Plan](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/18.updateplan)
+- [Update Deployment Plan](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/18.createupdateplan)
 - [Notifications](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/19.notifications)
