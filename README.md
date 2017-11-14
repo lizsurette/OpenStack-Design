@@ -32,3 +32,4 @@ Users might high a number of Edge Cases in the UI. Edge cases are the less likel
 - [Create/Update Deployment Plan](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/18.createupdateplan)
 - [Notifications](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/19.notifications)
 - [Export Plan](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/20.exportplan)
+- [Register Large Number of Nodes](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/21.registerlargenumbernodes)
