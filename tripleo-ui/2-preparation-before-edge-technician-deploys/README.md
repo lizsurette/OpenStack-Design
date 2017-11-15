@@ -74,46 +74,49 @@ The preparation expert could use the UI to do all of these steps after prepping 
 - After creating the plan, the user will see it listed in the card view. Clicking on the card will drill into the detailed workflow of that plan.
 
 ![plandetails](img/2017-7-24-TripleO-UI_13_PrepWork23.png)
-- At this point, the user could choose to edit the configuration for this plan.
+- At this point, the user could choose to edit the Network and Storage configuration for this plan.
 
 ![editconfiguration1](img/2017-7-24-TripleO-UI_13_PrepWork24.png)
-- The user can drill into the advanced network configuration.
+- The first step of this wizard would be the overall network configuration.
 
 ![editconfiguration2](img/2017-7-24-TripleO-UI_13_PrepWork25.png)
-- After making any network configuration changes, the user can drill into the advanced storage configuration.
+- The second step includes assigning roles to subnets.
 
 ![editconfiguration3](img/2017-7-24-TripleO-UI_13_PrepWork26.png)
+- The third network configuration step covers any changes that the user might want to make to the subnet configuration.
+
+![editconfiguration3](img/2017-7-24-TripleO-UI_13_PrepWork27.png)
 - Storage configuration changes can be made here and the user can save all of the configuration changes that have been made.
 
-![validationsrunning](img/2017-7-24-TripleO-UI_13_PrepWork27.png)
+![validationsrunning](img/2017-7-24-TripleO-UI_13_PrepWork28.png)
 - Validations may kick off after certain changes are made to the deployment configuration.
 
-![validations1](img/2017-7-24-TripleO-UI_13_PrepWork28.png)
+![validations1](img/2017-7-24-TripleO-UI_13_PrepWork29.png)
 - The user can click to view the entire list of validations.
 
-![validations2](img/2017-7-24-TripleO-UI_13_PrepWork29.png)
+![validations2](img/2017-7-24-TripleO-UI_13_PrepWork30.png)
 - For each validation, the high level status is listed along with a way for the user to drill into the details of the validation.
 
-![validationdetails](img/2017-7-24-TripleO-UI_13_PrepWork30.png)
+![validationdetails](img/2017-7-24-TripleO-UI_13_PrepWork31.png)
 - The validation details will give the user a better idea as to what has happened if a validation failed.
 
-![registernodes](img/2017-7-24-TripleO-UI_13_PrepWork31.png)
+![registernodes](img/2017-7-24-TripleO-UI_13_PrepWork32.png)
 - If the user wants to check that the configuration is working, they can begin the process of doing a test deployment by registering nodes.
 
-![registernodesmodal](img/2017-7-24-TripleO-UI_13_PrepWork32.png)
+![registernodesmodal](img/2017-7-24-TripleO-UI_13_PrepWork33.png)
 
-![assignnodestoroles](img/2017-7-24-TripleO-UI_13_PrepWork33.png)
+![assignnodestoroles](img/2017-7-24-TripleO-UI_13_PrepWork34.png)
 - At this point, the user would need to assign the registered nodes to the roles that they want them to play in the deployment.
 
-![deploy](img/2017-7-24-TripleO-UI_13_PrepWork34.png)
+![deploy](img/2017-7-24-TripleO-UI_13_PrepWork35.png)
 - Now the deployment is ready to kickoff.
 
-![deployconfirmation](img/2017-7-24-TripleO-UI_13_PrepWork35.png)
+![deployconfirmation](img/2017-7-24-TripleO-UI_13_PrepWork36.png)
 - The user will get a confirmation modal before deployment officially starts.
 
-![successfuldeploy](img/2017-7-24-TripleO-UI_13_PrepWork36.png)
+![successfuldeploy](img/2017-7-24-TripleO-UI_13_PrepWork37.png)
 - After a successful deployment, the user will have access to the overcloud.
 
-![exportplan](img/2017-7-24-TripleO-UI_13_PrepWork37.png)
+![exportplan](img/2017-7-24-TripleO-UI_13_PrepWork38.png)
 - At any point, the user can export a deployment plan.
 - This will support the use cases where one deployment plan might want to be used for multiple sites. The Edge Technician can simply import the deployment plan and then use it to deploy the overcloud at their site.
