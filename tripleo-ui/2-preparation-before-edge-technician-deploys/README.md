@@ -73,40 +73,40 @@ The preparation expert could use the UI to do all of these steps after prepping 
 ![plancardsview2](img/2017-7-24-TripleO-UI_13_PrepWork22.png)
 - After creating the plan, the user will see it listed in the card view. Clicking on the card will drill into the detailed workflow of that plan.
 
-![plandetails](img/2017-7-24-TripleO-UI_13_PrepWork23.png)
+![registernodes](img/2017-7-24-TripleO-UI_13_PrepWork23.png)
+- As a first step to testing out this configuration, the user can begin the process of doing a test deployment by registering nodes.
+
+![registernodesmodal](img/2017-7-24-TripleO-UI_13_PrepWork24.png)
+
+![assignnodestoroles](img/2017-7-24-TripleO-UI_13_PrepWork25.png)
+- At this point, the user would need to assign the registered nodes to the roles that they want them to play in the deployment.
+
+![plandetails](img/2017-7-24-TripleO-UI_13_PrepWork26.png)
 - At this point, the user could choose to edit the Network and Storage configuration for this plan.
 
-![editconfiguration1](img/2017-7-24-TripleO-UI_13_PrepWork24.png)
+![editconfiguration1](img/2017-7-24-TripleO-UI_13_PrepWork27.png)
 - The first step of this wizard would be the overall network configuration.
 
-![editconfiguration2](img/2017-7-24-TripleO-UI_13_PrepWork25.png)
+![editconfiguration2](img/2017-7-24-TripleO-UI_13_PrepWork28.png)
 - The second step includes assigning roles to subnets.
 
-![editconfiguration3](img/2017-7-24-TripleO-UI_13_PrepWork26.png)
+![editconfiguration3](img/2017-7-24-TripleO-UI_13_PrepWork29.png)
 - The third network configuration step covers any changes that the user might want to make to the subnet configuration.
 
-![editconfiguration3](img/2017-7-24-TripleO-UI_13_PrepWork27.png)
+![editconfiguration3](img/2017-7-24-TripleO-UI_13_PrepWork30.png)
 - Storage configuration changes can be made here and the user can save all of the configuration changes that have been made.
 
-![validationsrunning](img/2017-7-24-TripleO-UI_13_PrepWork28.png)
+![validationsrunning](img/2017-7-24-TripleO-UI_13_PrepWork31.png)
 - Validations may kick off after certain changes are made to the deployment configuration.
 
-![validations1](img/2017-7-24-TripleO-UI_13_PrepWork29.png)
+![validations1](img/2017-7-24-TripleO-UI_13_PrepWork32.png)
 - The user can click to view the entire list of validations.
 
-![validations2](img/2017-7-24-TripleO-UI_13_PrepWork30.png)
+![validations2](img/2017-7-24-TripleO-UI_13_PrepWork33.png)
 - For each validation, the high level status is listed along with a way for the user to drill into the details of the validation.
 
-![validationdetails](img/2017-7-24-TripleO-UI_13_PrepWork31.png)
+![validationdetails](img/2017-7-24-TripleO-UI_13_PrepWork34.png)
 - The validation details will give the user a better idea as to what has happened if a validation failed.
-
-![registernodes](img/2017-7-24-TripleO-UI_13_PrepWork32.png)
-- If the user wants to check that the configuration is working, they can begin the process of doing a test deployment by registering nodes.
-
-![registernodesmodal](img/2017-7-24-TripleO-UI_13_PrepWork33.png)
-
-![assignnodestoroles](img/2017-7-24-TripleO-UI_13_PrepWork34.png)
-- At this point, the user would need to assign the registered nodes to the roles that they want them to play in the deployment.
 
 ![deploy](img/2017-7-24-TripleO-UI_13_PrepWork35.png)
 - Now the deployment is ready to kickoff.
