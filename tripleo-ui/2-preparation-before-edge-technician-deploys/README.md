@@ -55,68 +55,73 @@ The preparation expert could use the UI to do all of these steps after prepping 
 ![createnewplan](img/2017-7-24-TripleO-UI_13_PrepWork17.png)
 - On creation of a Plan, the user can choose high level configuration options.  
 
-![editroles](img/2017-7-24-TripleO-UI_13_PrepWork18.png)
-- Part of the overall configuration includes role selection and creation.
-- Since this deployment will be an HCI deployment, the user is going to remove the default Compute and Storage roles and go ahead and create custom role for HCI.
+![createplan](img/2017-7-24-TripleO-UI_13_PrepWork18.png)
+- Once the user has finalized the high level plan details, they can confirm the creation of the plan.
 
-![createnewrole1](img/2017-7-24-TripleO-UI_13_PrepWork19.png)
-- Creating a new role will pull up another window that allows the user to define that role.
+![plancardsview2](img/2017-7-24-TripleO-UI_13_PrepWork19.png)
+- After creating the plan, the user will see it listed in the card view. Clicking on the card will drill into the detailed workflow of that plan.
 
-![createnewrole2](img/2017-7-24-TripleO-UI_13_PrepWork20.png)
+![registernodes](img/2017-7-24-TripleO-UI_13_PrepWork20.png)
+- As a first step to testing out this configuration, the user can begin the process of doing a test deployment by registering nodes.
+
+![registernodesmodal](img/2017-7-24-TripleO-UI_13_PrepWork21.png)
+
+![manageroles](img/2017-7-24-TripleO-UI_13_PrepWork22.png)
+- Since this deployment will be an HCI deployment, the user is going to want to edit the roles that are used.
+
+![manageroles2](img/2017-7-24-TripleO-UI_13_PrepWork23.png)
+- At this point the user can deselect the Compute and Storage roles so that they are not used.
+
+![manageroles3](img/2017-7-24-TripleO-UI_13_PrepWork24.png)
+- Next, the user selects to crate a new role so they can specify one for OSD Compute which will be used in the HCI deployment.
+
+![createnewrole1](img/2017-7-24-TripleO-UI_13_PrepWork25.png)
 - Roles can be given a name, description, and need to be assigned to a flavor.
 - Services can be selected that will be used in this role.
 - Based on the services selected, the parameters below will be built out.
 
-![createplan](img/2017-7-24-TripleO-UI_13_PrepWork21.png)
-- Once the user has finalized the high level plan details, they can confirm the creation of the plan.
+![createnewrole2](img/2017-7-24-TripleO-UI_13_PrepWork26.png)
+- After any changes needed have been made to the Roles, the user can Save the changes.
 
-![plancardsview2](img/2017-7-24-TripleO-UI_13_PrepWork22.png)
-- After creating the plan, the user will see it listed in the card view. Clicking on the card will drill into the detailed workflow of that plan.
-
-![registernodes](img/2017-7-24-TripleO-UI_13_PrepWork23.png)
-- As a first step to testing out this configuration, the user can begin the process of doing a test deployment by registering nodes.
-
-![registernodesmodal](img/2017-7-24-TripleO-UI_13_PrepWork24.png)
-
-![assignnodestoroles](img/2017-7-24-TripleO-UI_13_PrepWork25.png)
+![assignnodestoroles](img/2017-7-24-TripleO-UI_13_PrepWork27.png)
 - At this point, the user would need to assign the registered nodes to the roles that they want them to play in the deployment.
 
-![plandetails](img/2017-7-24-TripleO-UI_13_PrepWork26.png)
-- At this point, the user could choose to edit the Network and Storage configuration for this plan.
+![plandetails](img/2017-7-24-TripleO-UI_13_PrepWork28.png)
+- If needed, the user could choose to edit the Network and Storage configuration for this plan.
 
-![editconfiguration1](img/2017-7-24-TripleO-UI_13_PrepWork27.png)
+![editconfiguration1](img/2017-7-24-TripleO-UI_13_PrepWork29.png)
 - The first step of this wizard would be the overall network configuration.
 
-![editconfiguration2](img/2017-7-24-TripleO-UI_13_PrepWork28.png)
+![editconfiguration2](img/2017-7-24-TripleO-UI_13_PrepWork30.png)
 - The second step includes assigning roles to subnets.
 
-![editconfiguration3](img/2017-7-24-TripleO-UI_13_PrepWork29.png)
+![editconfiguration3](img/2017-7-24-TripleO-UI_13_PrepWork31.png)
 - The third network configuration step covers any changes that the user might want to make to the subnet configuration.
 
-![editconfiguration3](img/2017-7-24-TripleO-UI_13_PrepWork30.png)
+![editconfiguration3](img/2017-7-24-TripleO-UI_13_PrepWork32.png)
 - Storage configuration changes can be made here and the user can save all of the configuration changes that have been made.
 
-![validationsrunning](img/2017-7-24-TripleO-UI_13_PrepWork31.png)
+![validationsrunning](img/2017-7-24-TripleO-UI_13_PrepWork33.png)
 - Validations may kick off after certain changes are made to the deployment configuration.
 
-![validations1](img/2017-7-24-TripleO-UI_13_PrepWork32.png)
+![validations1](img/2017-7-24-TripleO-UI_13_PrepWork34.png)
 - The user can click to view the entire list of validations.
 
-![validations2](img/2017-7-24-TripleO-UI_13_PrepWork33.png)
+![validations2](img/2017-7-24-TripleO-UI_13_PrepWork35.png)
 - For each validation, the high level status is listed along with a way for the user to drill into the details of the validation.
 
-![validationdetails](img/2017-7-24-TripleO-UI_13_PrepWork34.png)
+![validationdetails](img/2017-7-24-TripleO-UI_13_PrepWork36.png)
 - The validation details will give the user a better idea as to what has happened if a validation failed.
 
-![deploy](img/2017-7-24-TripleO-UI_13_PrepWork35.png)
+![deploy](img/2017-7-24-TripleO-UI_13_PrepWork37.png)
 - Now the deployment is ready to kickoff.
 
-![deployconfirmation](img/2017-7-24-TripleO-UI_13_PrepWork36.png)
+![deployconfirmation](img/2017-7-24-TripleO-UI_13_PrepWork38.png)
 - The user will get a confirmation modal before deployment officially starts.
 
-![successfuldeploy](img/2017-7-24-TripleO-UI_13_PrepWork37.png)
+![successfuldeploy](img/2017-7-24-TripleO-UI_13_PrepWork39.png)
 - After a successful deployment, the user will have access to the overcloud.
 
-![exportplan](img/2017-7-24-TripleO-UI_13_PrepWork38.png)
+![exportplan](img/2017-7-24-TripleO-UI_13_PrepWork40.png)
 - At any point, the user can export a deployment plan.
 - This will support the use cases where one deployment plan might want to be used for multiple sites. The Edge Technician can simply import the deployment plan and then use it to deploy the overcloud at their site.
