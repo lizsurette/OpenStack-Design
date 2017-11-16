@@ -2,15 +2,14 @@
 
 The following is the documented design for the two main workflows that we are looking to support in the TripleO UI along with the edge cases that users might hit.
 
-#### 1. Deployment Workflow for Edge Technician
-A walkthrough of what Jacques the Edge Technician will see as he works through Deploying the Overcloud.
-- [Deployment Workflow for Edge Technician using the CLI](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/1-deployment-workflow-for-edge-technician/1.usingcli)
-- [Deployment Workflow for Edge Technician using the UI](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/1-deployment-workflow-for-edge-technician/2.usingui)
+#### 1. [Deployment Workflow for Edge Technician](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/1-deployment-workflow-for-edge-technician/)
+A walkthrough of what Jacques the Edge Technician will see as he works through Deploying the Overcloud using the UI.
 
 
-#### 2. [Preparation before Edge Technician Deploys](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/2-preparation-before-edge-technician-deploys/)
+#### 2. Preparation before Edge Technician Deploys
 A walkthrough of what the preparation expert needs to do to get the undercloud install done and configuration prepared for before Jacques installs at edge sites.
-
+- [Preparation before Edge Technician Deploys using the CLI](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/2-preparation-before-edge-technician-deploys/1.usingcli)
+- [Preparation before Edge Technician Deploys using the UI](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/2-preparation-before-edge-technician-deploys/2.usingui)
 
 #### 3. TripleO UI Edge Cases
 Users might high a number of Edge Cases in the UI. Edge cases are the less likely path, but still something we'd like to support a user of the UI to tackle.
