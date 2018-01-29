@@ -38,4 +38,4 @@ Users might high a number of Edge Cases in the UI. Edge cases are the less likel
 #### 4. OpenShift on OpenStack
 There are two methods that a user might choose to deploy OpenShift on OpenStack. The first is to run OpenShift as a Tenant on top of OpenStack. The second is to define a role and use bare-metal nodes to run OpenShift.
 - [OpenShift on OpenStack - Tenant](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/4-openshift-on-openstack/1.OpenShiftAsTenant)
-- [OpenShift on OpenStack - Bare-Metal)](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/4-openshift-on-openstack/2.OpenShiftOnBareMetal)
+- [OpenShift on OpenStack - Bare-Metal](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/4-openshift-on-openstack/2.OpenShiftOnBareMetal)
