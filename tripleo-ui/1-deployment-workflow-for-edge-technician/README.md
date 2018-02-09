@@ -4,7 +4,7 @@ Jacques is an edge technician who is looking to deploy OpenStack at a number of 
 [Jacques Persona](https://etherpad.openstack.org/p/edge-technician-persona-tripleo-ui)
 
 ## Login
-![login](img/2017-7-24-TripleO-UI_13_Jacques3.png)
+![login](img/01-Login.png)
 - Jacques opens the TripleO UI and logins to start working through the OpenStack deployment.
 - On login, Jacques is taken right to the details of the one deployment plan that exists for this site.
 
