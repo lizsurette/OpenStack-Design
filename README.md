@@ -20,7 +20,7 @@ Users might high a number of Edge Cases in the UI. Edge cases are the less likel
 - [Manually Add and Configure Infrastructure](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/5.manuallyaddandconfigureintrospectiondetails)
 - [Information Hover Over](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/6.informationhoverover)
 - [Advanced Network Configuration and Network Topology](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/7.advancednetworkconfigurationandtopology)
-- [Advanced Storage Configuration](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/8.advancedstorageconfiguration)
+- [HCI Deployment Workflow including Advanced Storage Configuration](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/8.advancedstorageconfiguration)
 - [Manually Assign Nodes](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/9.manuallyassignnodes)
 - [Import Validation](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/10.importvalidation)
 - [Monitor a Deployment In Progress](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/11.monitordeploymentinprogress)
