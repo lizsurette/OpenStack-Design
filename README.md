@@ -39,6 +39,7 @@ Users might high a number of Edge Cases in the UI. Edge cases are the less likel
 - [Predictable VIPs](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/24.predictablevips)
 - [Network Plugins](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/25.networkplugins)
 - [Role Suggestions](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/26.rolesuggestion)
+- [OVS DPDK Configuration](https://lizsurette.github.io/OpenStack-Design/tripleo-ui/3-tripleo-ui-edge-cases/27.ovsdpdk)
 
 #### 4. OpenShift on OpenStack
 There are two methods that a user might choose to deploy OpenShift on OpenStack. The first is to run OpenShift as a Tenant on top of OpenStack. The second is to define a role and use bare-metal nodes to run OpenShift.
